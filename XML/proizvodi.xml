@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!-- <!DOCTYPE note SYSTEM "proizvodi.dtd"> -->
+<Proizvodi>
+    <Proizvod xmlns="https://www.w3schools.com"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="proizvodi.xsd">
+        <Kategorija>Laptop</Kategorija>
+        <Cena valuta="rsd">2450</Cena>
+        <TekstOglasa>Opis oglasa</TekstOglasa>
+        <Oznake>
+            <Oznaka>akcija</Oznaka>
+        </Oznake>
+        <Akcije>
+            <Akcija cena="789" datumIsteka="1134"></Akcija>
+        </Akcije>
+    </Proizvod> 
+</Proizvodi>
