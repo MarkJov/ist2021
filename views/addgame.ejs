@@ -1,0 +1,59 @@
+<% include partials/header %>
+
+<h1>Dodaj igru!!</h1>
+
+<form action="/addgame" method="POST" enctype="multipart/form-data">
+  <div class="form-group">
+    <label>Naziv</label>
+    <input type="text" class="form-control" placeholder="Run 3" name="title">
+  </div>
+  <div class="form-group">
+    <label>Autor</label>
+    <input type="text" class="form-control" placeholder="light_bringer777" name="creator">
+  </div>
+  <div class="form-group">
+    <label>Rezolucija</label>
+    <input type="text" class="form-control" placeholder="480" name="width">
+    <input type="text" class="form-control" placeholder="680" name="height">
+  </div>
+ 
+  <h3>Prilozite podatke</h3>
+  <div class="form-group">
+    <label>Ime fajla</label>
+    <input type="text" class="form-control" placeholder="booger.swf" name="fileName">
+  </div>
+  <div class="form-group">
+    <label>Thumbnail fajl</label>
+    <input type="text" class="form-control" placeholder="thumbnail.png" name="thumbnailFile">
+  </div>
+  
+<!--
+  <h3>Prilozite podatke</h3>
+
+  <div class="input-group mb-3">
+  <div class="input-group-prepend">
+    <span class="input-group-text" id="inputGroupFileAddon01">Prilozi</span>
+  </div>
+  <div class="custom-file">
+    <input type="file" class="custom-file-input" id="gameInput" aria-describedby="inputGroupFileAddon01" name="gameFile">
+    <label class="custom-file-label" for="gameInput">Ime fajla(.swf)</label>
+  </div>
+</div>
+
+<div class="input-group mb-3">
+  <div class="input-group-prepend">
+    <span class="input-group-text" id="inputGroupFileAddon01">Prilozi</span>
+  </div>
+  <div class="custom-file">
+    <input type="file" class="custom-file-input" id="imageInput" aria-describedby="inputGroupFileAddon01" name="imageFile">
+    <label class="custom-file-label" for="imageInput">Slika</label>
+  </div>
+</div>
+   -->
+  <button type="submit" class="btn btn-primary">Prilozi</button>
+ 
+</form>
+
+
+
+<% include partials/footer %>
